@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Restic + Rclone Backup System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simple backup and sync workflows powered by restic and rclone.">
+  <style>
+    :root {
+      --bg: #f7f6f2;
+      --surface: #ffffff;
+      --text: #222222;
+      --muted: #666666;
+      --primary: #01696f;
+      --primary-hover: #0c4e54;
+      --radius: 0.75rem;
+      --space: 1.25rem;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    main {
+      max-width: 720px;
+      width: 100%;
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin-bottom: 0.75rem;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+      color: var(--muted);
+    }
+    .actions {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.7rem 1.3rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-size: 0.95rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+      white-space: nowrap;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+    }
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+    .btn-secondary {
+      background: #ffffff;
+      border-color: #dddddd;
+      color: var(--text);
+    }
+    .btn-secondary:hover {
+      border-color: #bbbbbb;
+    }
+    nav {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.9rem;
+    }
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      main { padding: 1.5rem; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Restic + Rclone Backup System</h1>
+  <p>
+    Restic + Rclone Backup System is a small tool that helps you configure and run
+    backups and synchronisation tasks using restic and rclone.
+  </p>
+  <p>
+    It is intended for users who want a simple way to manage backup jobs to local
+    or remote storage while keeping control over their own infrastructure.
+  </p>
+  <p>
+    This site provides general information about the project, along with links to
+    the privacy policy and terms of service for the application.
+  </p>
+
+  <div class="actions">
+    <a class="btn btn-primary" href="YOUR_GOOGLE_FORM_URL" target="_blank" rel="noopener noreferrer">
+      Open application form
+    </a>
+  </div>
+
+  <nav aria-label="Legal links">
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+  </nav>
+</main>
+</body>
+</html>
